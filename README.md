@@ -1,0 +1,6 @@
+# my-smart-life-cycle
+本demo 测试了spring中提供的SmartLifeCycle 自定义实现类
+
+start方法 基于容器内所有bean加载完成之后执行的逻辑
+
+多个SmartLifeCycle实现类间通过getPhase方法区分执行先后顺序，设置的数字越小越先执行
